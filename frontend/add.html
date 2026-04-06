@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="NBH.css">
+    <style>
+        #navlist-4 {
+            background-color: #fdd835;
+        }
+
+        #navlist-1 {
+            background-color: darkblue;
+        }
+
+
+        .complete {
+            height: 80pc;
+        }
+
+        .image {
+            width: 100%;
+            height: 280px;
+            /* border-radius: 5px; */
+        }
+
+        .boot {
+            float: left;
+            /* padding: 10px; */
+            display: block;
+            width: 20%;
+            border: 2px solid grey;
+            height: 370px;
+            /* background-color: rgb(201, 188, 188); */
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 20px 5px grey;
+        }
+
+        .brand {
+            text-align: center;
+            padding: 8px 8px 8px 8px;
+            background-color: #d7d7d778;
+        }
+
+        main {
+            margin-left: 120px;
+            margin-top: 80px;
+        }
+
+        .choose {
+            /* border:3px solid green; */
+            margin-top: 30px;
+            padding: 10px;
+            padding-left: 29px;
+            margin-left: 30px;
+            width: 18%;
+            border-radius: 15px;
+            background-color: darkblue;
+
+        }
+
+        .click {
+            /* border:3px solid black; */
+            padding: 2px;
+            margin: 1px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .tag {
+            color: black;
+            border: 3px solid black;
+            padding: 5px;
+            border-radius: 50px;
+            width: fit-content;
+            margin: auto;
+        }
+
+        .wr {
+            margin: 5px;
+            text-decoration: none;
+            color: black;
+            font-weight: 550;
+        }
+
+        .tag:hover {
+            background-color: grey;
+        }
+
+
+        /* lower css */
+
+        .lower {
+            border: 3px solid white;
+            background-color: #010080;
+            /* height:400px; */
+            width: 100%;
+            color: white;
+
+        }
+
+        .down {
+            display: flex;
+            margin: 5px 15px;
+            padding: 10px 96px;
+            /* border:3px solid green; */
+        }
+
+        .information {
+            padding: 5px 10px 5px 25px;
+            /* border:2px solid red; */
+            float: left;
+            width: 24%;
+            height: 35vh;
+        }
+
+        .contact-no {
+            text-decoration: none;
+            color: white;
+        }
+
+        .contact-no:hover {
+            text-decoration: underline;
+        }
+
+        .size {
+            font-size: large;
+        }
+        .click:hover{
+            background-color: rgb(142, 142, 142);
+        }
+        #add-1{
+            background-color: gray;
+        }
+        .size{
+            font-size: large;
+            font-family: math;
+        }
+        .terms{
+            list-style: none;
+            font-size: large;
+            font-weight: 500;
+            font-family: math;
+        }
+        .size ul{
+            padding-left: 0px;
+        }
+        .terms{
+            padding-top: 5px;
+        }
+        .terms:hover{
+            text-decoration: underline;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="template">
+        <div class="upper">
+            <div class="top-left">
+                &#x1F4DE; Call us:903-473-5450
+            </div>
+            <div class="top-middle">
+                <div class="link">
+                    <ul>
+                        <li class="list"><a href="https://www.facebook.com/profile.php?id=100027498121991">
+                                <img class="icon" id="list-1" src="image/facebook-icon-png-739 (1).png"
+                                    alt="facebook link"></a>
+                        </li>
+                        <li class="list"><a href="https://www.instagram.com/rohitgoyal281/">
+                                <img class="icon" id="list-2" src="image/instagram-icon-955.jpg"
+                                    alt="Instagram link"></a>
+                        </li>
+                        <li class="list"><a href="#">
+                                <img class="icon" id="list-3" src="image/twitter.jpg" alt="Twitter link"></a>
+                        </li>
+                        <li class="list"><a href="#">
+                                <img class="icon" id="list-4" src="image/linkedin.png" alt="linkedin link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="label">
+                    <!-- <label for="Search"></label> -->
+                    <select name="language" id="item">
+                        <option value="English">English</option>
+                        <option value="hindi">Hindi</option>
+                    </select>
+                </div>
+                <div class="time">Open timing: 8:00-21:00</div>
+            </div>
+        </div>
+
+        <div class="upper-bottom">
+            <span class="left-1">&#9993 &nbsp
+                <a class="email" href="#">nbh@gmail.com</a>
+            </span>
+            <div class="center">
+                <img class="nbh" src="image/remover.png" alt="Shop logo">
+            </div>
+            <div class="right-1">
+                <a class="order-now" href="product.html"><img class="order" src="image/order now icon.png" alt="Order now"><span
+                        class="now">Order now</span></a>
+            </div>
+
+        </div>
+
+
+        <div class="navbar">
+            <nav class="row">
+                <ul>
+                    <li class="box" id="navlist-1"><a href="NBH.html"> Home </a></li>
+                    <li class="box" id="navlist-2"><a href="ABOUT-US-NBH.html"> About us </a></li>
+                    <li class="box" id="navlist-3"><a href="product.html"> Products </a></li>
+                    <li class="box" id="navlist-4"><a href="add.html"> Accessories </a></li>
+                    <li class="box" id="navlist-5"><a href="photos.html"> Photos </a></li>
+                    <li class="box" id="navlist-6"><a href="contact-us.html"> Contact us </a></li>
+                    <li class="box" id="navlist-7">
+                        <input class="holder" type="text" placeholder="search">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <hr>
+
+    <div class="choose">
+        <a href="product.html" class="click" id="men-1">Gents</a>
+        <a href="women.html" class="click" id="women">Women</a>
+        <a href="kids.html" class="click" id="kids-1">Kids</a>
+        <a href="add.html" class="click" id="add-1">Accessories</a>
+    </div>
+    <div class="complete">
+
+        <main>
+            <div class="boot"><img src="additional/add-1.png" alt="" class="image">
+                <div class="brand"><strong>Rs.1,690.00 | Mochi Black-Brown Mens Belts Pin Buckle</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-2.png" alt="" class="image">
+                <div class="brand"><strong>Rs.990.00 | Mochi Maroon Mens Belts Pin Buckle</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-3.png" alt="" class="image">
+                <div class="brand"><strong>Rs.1,290 | Mochi Blue Mens Belts Pin Buckle</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-4.png" alt="" class="image">
+                <div class="brand"><strong>Rs.990.00 | Mochi Maroon Mens Belts Pin Buckle</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-5.png" alt="" class="image">
+                <div class="brand"><strong>Rs.190.00 | Mochi Blue Foot Care</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-6.png" alt="" class="image">
+                <div class="brand"><strong>Rs.150.00 | Mochi Navy-Blue Mens Socks Half Length</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-7.png" alt="" class="image">
+                <div class="brand"><strong>Rs.190.00 | Mochi Blue Womens Socks Ankle Length</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-8.png" alt="" class="image">
+                <div class="brand"><strong>Rs.200.00 | Mochi Blue Mens Socks Half Length</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boot"><img src="additional/add-9.png" alt="" class="image">
+                <div class="brand"><strong>Rs.1,490.00 | Mochi Brown Mens Wallets Trifold</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-10.png" alt="" class="image">
+                <div class="brand"><strong>Rs.1,490.00 | Mochi Brown Mens Wallet Bifold</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-11.png" alt="" class="image">
+                <div class="brand"><strong>Rs.990.00 | Mochi Brown Mens Wallet Bitfold</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boot"><img src="additional/add-12.png" alt="" class="image">
+                <div class="brand"><strong>Rs.1,490.00 | Mochi Brown Mens Wallets Bitfold</strong>
+                    <div class="mid">
+                        <div class="tag"><a href="contact-us.html" class="wr">Shop now</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+
+        <div class="lower">
+            <div class="down">
+                <div class="information">
+                    <h2 class="heading-2" id="info">SERVICES</h2>
+                    <address class="size">
+                        <ul>
+                            <li class="terms">Delivery Facility</li>
+                            <li class="terms">Buying Guide</li>
+                            <li class="terms">Track order</li>
+                            <li class="terms">Return Policy within 15 Days</li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="information">
+                    <h2 class="heading-2" id="A/C">ABOUT</h2>
+                    <address class="size">
+                        Naresh Boot House deals with different items like Shoes, Slippers, Sendels etc. for any
+                        generation of Gents, ladies and kids.
+                    </address>
+                </div>
+                <div class="information">
+                    <h2 class="heading-2" id="abo">POLICIES</h2>
+                    <address class="size">
+                        <ul>
+                            <li class="terms">Terms and Conditions</li>
+                            <li class="terms">Shipping and Return policy</li>
+                            <li class="terms">Privacy Policy</li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="information">
+                    <h2 class="heading-2" id="phone">CONTACTS</h2>
+                    <address class="size">
+                        <div>Naresh Boot House</div>
+                        Punjabi colony near indian gas agency <br> Punhana, Mewat,Haryana 136118.
+                        <br>
+                        <div id="no">Contact no. :<a href="#" class="contact-no">9034735450</a> , <a href="#"
+                                class="contact-no">9729098700</a></div>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+    
+
+</body>
+
+</html>
