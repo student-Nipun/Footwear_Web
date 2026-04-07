@@ -5,147 +5,217 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keyword" content="NBH, Naresh Boot house, Shoes shop,Slippers shop">
     <title>Naresh Boot House</title>
-    <link rel="stylesheet" href="NBH.css">
     <style>
-        .background {
-            background-image: linear-gradient(rgba(-5, -1, -1, 0.1), blue), url(image/simple\ background.jpg);
-            position: static;
-            /* top: 245px; */
-            left: 0%;
-            height: 80vh;
-            width: 100%;
-            /* background-color: rgb(0, 17, 255); */
+        body {
+            background-image: url(image/simple\ background.jpg);
         }
 
-        .height {
-            font-size: 60px;
-            font-weight: bold;
-        }
-
-        .slogans {
-            font-size: 30px;
+        .heading {
             text-align: center;
-            margin-top: 8px;
-            color: red;
-            font-weight: 500;
-            text-shadow: 2px 2px 5px green;
+            text-shadow: 2px 2px 2px red;
         }
 
-        .header {
-            position: relative;
-            left: 20%;
-            top: 40%;
-            display: inline-block;
-            cursor: default;
+        .text {
+            margin-top: 20px;
+            text-align: justify;
+            width: 80%;
+            margin: auto;
+            font-size: 27px;
+            padding: 5px 40px;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
-        .shoe {
-            width: 549px;
-            height: 251px;
+        /* top */
+
+        .icon {
+            height: 35px;
+            width: 35px;
         }
 
-        .image {
-            position: relative;
-            top: 5vh;
-            left: 60%;
+        #list-2 {
+            border-radius: 35px;
         }
 
-        .name {
-            color: darkkhaki;
-            text-shadow: 2px 2px 5px #010080;
+        #list-3 {
+            border-radius: 35px;
         }
 
-        .name-1 {
-            color: darkkhaki;
-            text-align: center;
-            text-shadow: 2px 2px 5px #010080;
-        }
-
-
-
-        .lamba {
-            border-top: 6px solid white;
-            width: 100%;
-            height: 275px;
+        div .top-middle {
             display: flex;
-        }
-
-        .row-1 {
-            height: 271px;
-            /* background-color: #fdd835; */
-            /* border: 3px solid blue; */
-            width: 33.3333333333%;
-            display: flex;
-            justify-content: center;
             align-items: center;
-            border-right: 1px solid black;
         }
 
-        .row-1:nth-child(2n+1) {
-            background: linear-gradient(rgba(-5, -1, -1, 0.1), blue);
+        .upper {
+            position: static;
+            top: 0%;
+            left: 0%;
+            height: 50px;
+            background-color: #e1f5fe;
+            border-top: 1px solid grey;
+            width: 100%;
         }
 
-        .row-1:nth-child(even) {
-            /* background-color: #0a0972e6; */
-            background: linear-gradient(rgba(-5, -1, -1, 0.1), blue);
-            /* background: linear-gradient(rgba(0, 0, 0, 0.4), #ffee00e6); */
+        .list {
+            margin: auto 5px;
         }
 
-        .Gents,
-        .woman,
-        .kids {
-            text-decoration: none;
-            font-size: 30px;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: bold;
-            letter-spacing: -2px;
-        }
-
-        .gents-shoe,
-        .woman-shoe,
-        .kids-shoe {
+        .link ul {
+            list-style: none;
             display: flex;
-            flex-direction: column;
         }
 
-        .woman-shoe-pic,
-        .kids-shoe-pic,
-        .kids-shoe-pic {
-            height: 110px;
-            /* border:2px solid red; */
-            padding: 6px 5px;
+        #item {
+            padding: 5px 17px;
+            background-color: #e1f5fe;
+            border-radius: 50px;
+        }
+
+        .right {
+            display: flex;
+            margin: auto 0;
+        }
+
+        .time {
+            margin-left: 8px;
+            font-size: 20px;
+        }
+
+        .upper {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .top-left {
+            font-size: 20px;
+            margin: auto 0;
+        }
+
+        .upper-bottom {
+            position: static;
+            /* top: 50px; */
+            left: 0%;
+            width: 100%;
+            height: 120px;
+            /* background-color: coral; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .mail {
+            height: 70px;
+            width: 55px;
+        }
+
+        .email {
+            font-size: 25px;
+            text-decoration: none;
+            color: black;
+            margin-top: 8px;
+        }
+
+        .left-1 {
+            display: flex;
+            font-size: 30px;
+
+        }
+
+        .order {
+            height: 37px;
+            width: 42px;
+        }
+
+        .order-now {
+            font-size: 25px;
+            text-decoration: none;
+
+        }
+
+        .nbh {
             cursor: pointer;
         }
 
-        .Gents,
-        .woman,
-        .kids {
-            padding: 5px;
-            /* border:2px solid purple; */
+        div .navbar {
+            position: static;
+            /* top: 170px; */
+
+            width: 100%;
+            height: 75px;
+            background-color: darkblue;
         }
 
-        .kids:hover {
-            text-decoration: underline;
-            color: darkblue;
+        .now {
+            border: 2px solid black;
+            border-radius: 30px;
+            margin-left: 45px;
+            padding: 5px 15px;
+            background-color: darkblue;
+            color: white;
         }
 
-        .Gents:hover {
-            text-decoration: underline;
-            color: darkblue;
+        .box:hover {
+            background-color: #fdd835;
         }
 
-        .woman:hover {
-            text-decoration: underline;
-            color: darkblue;
+        #navlist-1 {
+            background-color: #fdd835;
         }
+
+        .now:hover {
+            background-color: #fdd835;
+            border: none;
+        }
+
+        .email:hover {
+            text-decoration: underline;
+        }
+
+        /* .row{
+    display:flex;
+} */
+        .navbar nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0 auto;
+
+        }
+
+        .row ul li {
+            font-size: 25px;
+            /* border:3px solid red; */
+            padding: 23px 31px;
+            color: white;
+        }
+
+        .row ul li a {
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .holder {
+            /* padding: 7px 85px; */
+            border-radius: 50px;
+            width: 300px;
+            height: 30px;
+            font-size: 17px;
+        }
+
+        #navlist-7 {
+            padding: 20px 0px;
+            margin-left: 92px;
+        }
+
+        #navlist-7:hover {
+            background-color: darkblue;
+        }
+
 
         .lower {
             border: 3px solid white;
             background-color: #010080;
-            /* height:400px; */
+            /* height: 400px; */
             width: 100%;
             color: white;
 
@@ -155,12 +225,12 @@
             display: flex;
             margin: 5px 15px;
             padding: 10px 96px;
-            /* border:3px solid green; */
+            /* border: 3px solid green; */
         }
 
         .information {
             padding: 5px 10px 5px 25px;
-            /* border:2px solid red; */
+            /* border: 2px solid red; */
             float: left;
             width: 24%;
             height: 35vh;
@@ -173,6 +243,14 @@
 
         .contact-no:hover {
             text-decoration: underline;
+        }
+
+        .size {
+            font-size: large;
+        }
+
+        .lower {
+            margin-top: 100px;
         }
 
         .size {
@@ -198,6 +276,14 @@
         .terms:hover {
             text-decoration: underline;
         }
+
+        #navlist-2 {
+            background-color: #fdd835;
+        }
+
+        #navlist-1 {
+            background-color: darkblue;
+        }
     </style>
 </head>
 
@@ -218,11 +304,11 @@
                                 <img class="icon" id="list-2" src="image/instagram-icon-955.jpg"
                                     alt="Instagram link"></a>
                         </li>
-                        <li class="list">
-                            <img class="icon" id="list-3" src="image/twitter.jpg" alt="Twitter link">
+                        <li class="list"><a href="#">
+                                <img class="icon" id="list-3" src="image/twitter.jpg" alt="Twitter link"></a>
                         </li>
-                        <li class="list">
-                            <img class="icon" id="list-4" src="image/linkedin.png" alt="linkedin link">
+                        <li class="list"><a href="#">
+                                <img class="icon" id="list-4" src="image/linkedin.png" alt="linkedin link"></a>
                         </li>
                     </ul>
                 </div>
@@ -269,46 +355,35 @@
                 </ul>
             </nav>
         </div>
-        <div class="background">
-            <div class="header">
-                <div class="height">
-                    <div class="name">
-                        NARESH BOOT
-                    </div>
-                    <div class="name-1">
-                        HOUSE
-                    </div>
-                </div>
-                <div class="slogans">
-                    A huge fashion collection for ever
-                </div>
-            </div>
-            <div class="image">
-                <img class="shoe" src="image/NBH shoes.png" alt="NBH template Photo">
-            </div>
-        </div>
-        <div class="boxes">
-            <div class="lamba">
-                <div class="row-1" id="box-1">
-                    <div class="gents-shoe">
-                        <img src="image/GENTS SHOES.png" alt="Gents Shoe" class="kids-shoe-pic">
-                        <a href="product.html" class="Gents">GENTS</a>
-                    </div>
-                </div>
-                <div class="row-1" id="box-2">
-                    <div class="woman-shoe">
-                        <img src="image/Women-Shoes.png" alt="Woman Footwear" class="woman-shoe-pic">
-                        <a href="women.html" class="woman">WOMANS</a>
-                    </div>
-                </div>
-                <div class="row-1" id="box-3">
-                    <div class="kids-shoe">
-                        <img src="image/kids shoe.png" alt="Kids Shoe" class="kids-shoe-pic">
-                        <a href="kids.html" class="kids">KIDS</a>
-                    </div>
+
+    </div>
+    <div class="full">
+        <div class="header">
+            <header>
+                <h1 class="heading">About us</h1>
+                <hr>
+            </header>
+            <div class="content">
+                <div class="text">
+                    Naresh Boot House is a one-stop shop for all fashion footwear need foot care, and shoe care
+                    products. The footwear options are versatile and befitting every occasion. The high-octane
+                    atmosphere in the stores, hands-on staff and the various options to choose from further makes
+                    the shopping experience an enjoyable experience. <br><br>
+
+                    Since its inception in 1992 at Punhana (Mewat), India, Naresh Boot House – With a strong focus
+                    on fashion and style, Naresh Boot House caters to the young cosmopolitan Indian offering them to
+                    their ever-changing fashion needs. The NBH Boot store opened in 1992 on Commercial Street,
+                    Punhana and has grown into a brand that is synonymous with fresh designs, creativity and spunk
+                    for young Indians. <br><br>
+
+                    Naresh Boot House ensembles are intrinsically vivacious with varied hues and styles. It
+                    celebrates the uniqueness, distinctness and individuality of the youth of today. Mochi is the
+                    apt choice for those who believe in putting their best foot forward, ALWAYS! It outshines itself
+                    as a mere footwear brand and is recognized as a bold fashion statement.
                 </div>
 
             </div>
+
         </div>
     </div>
 
@@ -354,8 +429,6 @@
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>

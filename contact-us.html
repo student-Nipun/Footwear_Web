@@ -5,141 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keyword" content="NBH, Naresh Boot house, Shoes shop,Slippers shop">
-    <title>Naresh Boot House</title>
+    <title>Contact us</title>
     <link rel="stylesheet" href="NBH.css">
     <style>
-        .background {
-            background-image: linear-gradient(rgba(-5, -1, -1, 0.1), blue), url(image/simple\ background.jpg);
-            position: static;
-            /* top: 245px; */
-            left: 0%;
-            height: 80vh;
-            width: 100%;
-            /* background-color: rgb(0, 17, 255); */
+        .padding {
+            background-color: #f3a20d;
+            padding: 20px 0;
+            margin-bottom: 100px;
         }
 
-        .height {
-            font-size: 60px;
-            font-weight: bold;
+        .heading {
+            font-size: 50px;
+            line-height: 40px;
+            color: #fff;
+            font-weight: 700;
+            padding: 0;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .slogans {
-            font-size: 30px;
-            text-align: center;
-            margin-top: 8px;
-            color: red;
-            font-weight: 500;
-            text-shadow: 2px 2px 5px green;
+        .input {
+            border: 1px solid #183661;
+            height: 50px;
+            width: 375px;
+            font-size: 25px;
+
         }
 
-        .header {
+        .information-collect {
             position: relative;
-            left: 20%;
-            top: 40%;
-            display: inline-block;
-            cursor: default;
+            left: 22%;
+
+            /* border: 3px solid green; */
         }
 
-        .shoe {
-            width: 549px;
-            height: 251px;
+        .collect {
+            /* border: 3px solid red; */
+            width: 60%;
+            /* margin:15px auto; */
+            /* padding:5px 5px; */
         }
 
-        .image {
-            position: relative;
-            top: 5vh;
-            left: 60%;
+        .input {
+            margin: 5px 15px 20px 5px;
         }
 
-        .name {
-            color: darkkhaki;
-            text-shadow: 2px 2px 5px #010080;
-        }
+        #send {
+            padding: 10px 40px;
+            margin: 16px 0px;
+            border-radius: 50px;
+            font-size: 20px;
+            background-color: darkblue;
+            color: white;
+            border: 2px solid grey;
 
-        .name-1 {
-            color: darkkhaki;
-            text-align: center;
-            text-shadow: 2px 2px 5px #010080;
-        }
-
-
-
-        .lamba {
-            border-top: 6px solid white;
-            width: 100%;
-            height: 275px;
-            display: flex;
-        }
-
-        .row-1 {
-            height: 271px;
-            /* background-color: #fdd835; */
-            /* border: 3px solid blue; */
-            width: 33.3333333333%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-right: 1px solid black;
-        }
-
-        .row-1:nth-child(2n+1) {
-            background: linear-gradient(rgba(-5, -1, -1, 0.1), blue);
-        }
-
-        .row-1:nth-child(even) {
-            /* background-color: #0a0972e6; */
-            background: linear-gradient(rgba(-5, -1, -1, 0.1), blue);
-            /* background: linear-gradient(rgba(0, 0, 0, 0.4), #ffee00e6); */
-        }
-
-        .Gents,
-        .woman,
-        .kids {
-            text-decoration: none;
-            font-size: 30px;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: bold;
-            letter-spacing: -2px;
-        }
-
-        .gents-shoe,
-        .woman-shoe,
-        .kids-shoe {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .woman-shoe-pic,
-        .kids-shoe-pic,
-        .kids-shoe-pic {
-            height: 110px;
-            /* border:2px solid red; */
-            padding: 6px 5px;
-            cursor: pointer;
-        }
-
-        .Gents,
-        .woman,
-        .kids {
-            padding: 5px;
-            /* border:2px solid purple; */
-        }
-
-        .kids:hover {
-            text-decoration: underline;
-            color: darkblue;
-        }
-
-        .Gents:hover {
-            text-decoration: underline;
-            color: darkblue;
-        }
-
-        .woman:hover {
-            text-decoration: underline;
-            color: darkblue;
         }
 
         .lower {
@@ -148,22 +68,28 @@
             /* height:400px; */
             width: 100%;
             color: white;
-
+            margin-top: 100px;
         }
 
         .down {
             display: flex;
             margin: 5px 15px;
             padding: 10px 96px;
-            /* border:3px solid green; */
         }
 
         .information {
             padding: 5px 10px 5px 25px;
             /* border:2px solid red; */
-            float: left;
             width: 24%;
             height: 35vh;
+            float: left;
+        }
+
+        #send:hover {
+            color: #756600;
+            background-color: #fdd835;
+            font-weight: 600;
+            border: none;
         }
 
         .contact-no {
@@ -198,6 +124,14 @@
         .terms:hover {
             text-decoration: underline;
         }
+
+        #navlist-6 {
+            background-color: #fdd835;
+        }
+
+        #navlist-1 {
+            background-color: darkblue;
+        }
     </style>
 </head>
 
@@ -218,11 +152,11 @@
                                 <img class="icon" id="list-2" src="image/instagram-icon-955.jpg"
                                     alt="Instagram link"></a>
                         </li>
-                        <li class="list">
-                            <img class="icon" id="list-3" src="image/twitter.jpg" alt="Twitter link">
+                        <li class="list"><a href="#">
+                                <img class="icon" id="list-3" src="image/twitter.jpg" alt="Twitter link"></a>
                         </li>
-                        <li class="list">
-                            <img class="icon" id="list-4" src="image/linkedin.png" alt="linkedin link">
+                        <li class="list"><a href="#">
+                                <img class="icon" id="list-4" src="image/linkedin.png" alt="linkedin link"></a>
                         </li>
                     </ul>
                 </div>
@@ -269,45 +203,22 @@
                 </ul>
             </nav>
         </div>
-        <div class="background">
-            <div class="header">
-                <div class="height">
-                    <div class="name">
-                        NARESH BOOT
-                    </div>
-                    <div class="name-1">
-                        HOUSE
-                    </div>
-                </div>
-                <div class="slogans">
-                    A huge fashion collection for ever
-                </div>
+        <div class="contact">
+            <div class="padding">
+                <h1 class="heading">Contact us</h1>
             </div>
-            <div class="image">
-                <img class="shoe" src="image/NBH shoes.png" alt="NBH template Photo">
-            </div>
-        </div>
-        <div class="boxes">
-            <div class="lamba">
-                <div class="row-1" id="box-1">
-                    <div class="gents-shoe">
-                        <img src="image/GENTS SHOES.png" alt="Gents Shoe" class="kids-shoe-pic">
-                        <a href="product.html" class="Gents">GENTS</a>
+            <div class="information-collect">
+                <div class="collect">
+                    <input class="input" id="input-1" type="text" placeholder="Name">
+                    <input class="input" id="input-2" type="number" placeholder="Phone Number">
+                    <input class="input" id="input-3" type="text" placeholder="Address">
+                    <input class="input" id="input-4" type="email" placeholder="Email">
+                    <div id="message">
+                        Write message:&#128221 <br><textarea name="message" placeholder="Message" id="" cols="50"
+                            rows="12"></textarea>
                     </div>
+                    <button type="submit" name="send" id="send">Send</button>
                 </div>
-                <div class="row-1" id="box-2">
-                    <div class="woman-shoe">
-                        <img src="image/Women-Shoes.png" alt="Woman Footwear" class="woman-shoe-pic">
-                        <a href="women.html" class="woman">WOMANS</a>
-                    </div>
-                </div>
-                <div class="row-1" id="box-3">
-                    <div class="kids-shoe">
-                        <img src="image/kids shoe.png" alt="Kids Shoe" class="kids-shoe-pic">
-                        <a href="kids.html" class="kids">KIDS</a>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
@@ -354,6 +265,43 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+        document.getElementById('send').addEventListener('click', async () => {
+
+            const name = document.getElementById('input-1').value;
+            const phone = document.getElementById('input-2').value;
+            const address = document.getElementById('input-3').value;
+            const email = document.getElementById('input-4').value;
+            const message = document.querySelector('textarea').value;
+
+            if (!name || !phone || !email) {
+                alert('Name, Phone, and Email are required!');
+                return;
+            }
+
+            const response = await fetch('/submit-contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, phone, address, email, message })
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                alert('✅ I receive you data! I will contact you immediately.');
+                // Form clear karo
+                document.getElementById('input-1').value = '';
+                document.getElementById('input-2').value = '';
+                document.getElementById('input-3').value = '';
+                document.getElementById('input-4').value = '';
+                document.querySelector('textarea').value = '';
+            } else {
+                alert('❌ Some error. Please try again.');
+            }
+        });
+    </script>
 
 
 </body>
